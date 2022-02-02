@@ -7,15 +7,16 @@ public final class ThreadLocal<T> {
         Key() {}
     }
     */
-    public ThreadLocal();    
-    
+   
+    /*
     public static Key getKey(){
         return new Key();
     }
-   // public static void set(String key, Object value);
-    public  void set(T value);
+    */
+    // public static void set(String key, Object value);
+    // public static Object get(String key);
 
-   // public static Object get(String key);
-    public  T get();
-
+    public ThreadLocal();
+    public void set(T value);
+    public T get();
 }
